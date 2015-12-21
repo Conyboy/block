@@ -1,0 +1,71 @@
+body {
+}
+#info .ui-grid-c {
+	border: 1px solid black;
+}
+#info .ui-grid-c .ui-block-a, #info .ui-grid-c .ui-block-c {
+	border: .5px solid black;
+	font-weight: bold;
+	text-align: left;
+	width: 18%;
+}
+ 
+#info .ui-grid-c .ui-block-b, #info .ui-grid-c .ui-block-d {
+	overflow: hidden;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: left;
+    width: 32%;
+    height: 25px;
+}
+#info .ui-grid-c .ui-block-d {
+	width: 32.1%;
+	background-color: #66DD00;
+	text-align: center;
+}
+#game .ui-grid-c {
+	
+}
+#game .ui-grid-c .ui-block-a,
+#game .ui-grid-c .ui-block-b,
+#game .ui-grid-c .ui-block-c,
+#game .ui-grid-c .ui-block-d {
+	border: 1px solid black;
+	width: 70px;
+	height: 65px;
+}
+#game .ui-grid-c .ui-block-a:HOVER,
+#game .ui-grid-c .ui-block-b:HOVER,
+#game .ui-grid-c .ui-block-c:HOVER,
+#game .ui-grid-c .ui-block-d:HOVER {
+	/* background-color: blue; */
+}
+#life {
+	
+}
+#score {
+ 
+}
+
+#lifeValue {
+	height: 25px;
+} 
+#scoreValue {
+	
+}
+
+#restart, #pause {
+	text-align: center;
+}
+#buttonsg {
+	width: 100%;
+}
+
+#game .block {
+	background-color: red;
+	width: 0px;
+	height: 0px;
+	position: relative;
+	top: 35px;
+	left: 35px;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration
+    xmlns="http://schemas.genuitec.com/myeclipse/mobile"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.genuitec.com/myeclipse/mobile http://schemas.genuitec.com/myeclipse/mobile/buildconfig_0_2.xsd"
+    version="0.2">
+
+	<configId>5e258ced768a4f4ca4a4ca36369f2aa8</configId>	
+	
+	<appId>BlockIOS.ios</appId>
+	<appName>BlockIOS</appName>
+	<packageName>BlockIOS</packageName>
+	<outputFileName>blockios.ipa</outputFileName>
+	<appVersion>1.0.0</appVersion>
+	<appLanguage />
+	<author email="" name="" />
+
+	<supportedOrientation>ALL</supportedOrientation>
+	
+	<platform>
+	    <ios>
+            <targetDeviceFormFactor>UNIVERSAL</targetDeviceFormFactor>	        
+	    </ios>
+	</platform>
+
+	<sourceFolders>
+        <item exclusionPatterns="" inclusionPatterns="www/" />
+	</sourceFolders>
+	<startupURI>index.html</startupURI>
+
+	<brandingImages>
+	</brandingImages>
+
+</configuration>
